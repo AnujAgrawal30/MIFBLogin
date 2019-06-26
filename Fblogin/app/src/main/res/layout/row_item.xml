@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/bloger_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="5dp"
+        android:text="Anuj"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/pic_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloger_name"
+        android:text="Anuj"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pic_url"
+        android:layout_marginTop="5dp"
+        android:text="CH"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/types"
+        android:layout_marginTop="5dp"
+        android:text="IITB"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/bloger_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/college"
+        android:layout_marginTop="5dp"
+        android:text="New Blog"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/bloger_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloger_topic"
+        android:layout_marginTop="5dp"
+        android:text="Sample Blog"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/bloger_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloger_blog"
+        android:layout_marginTop="5dp"
+        android:text="Yes"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/bloger_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloger_status"
+        android:layout_marginTop="15dp"
+        android:text="Anuj" />
+
+    <TextView
+        android:id="@+id/fblink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloger_pic"
+        android:layout_marginTop="5dp"
+        android:text="fblink"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/instalink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fblink"
+        android:layout_marginTop="5dp"
+        android:text="instalink"
+        android:textColor="@android:color/black" />
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/version_heading"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="API: "-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/version_number"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="23"-->
+            <!--android:textAppearance="?android:attr/textAppearanceButton"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
